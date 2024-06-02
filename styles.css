@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .navbar-brand {
+    color: #fff;
+}
+
+header .navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 1rem;
+}
+
+header .navbar-nav .nav-link:hover {
+    color: #ddd;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+section h2 {
+    margin-bottom: 2rem;
+}
+
+.card {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+@media (max-width: 768px) {
+    header .navbar-nav {
+        text-align: center;
+    }
+}
+
